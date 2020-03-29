@@ -2,6 +2,15 @@
 Apply to hover state, before or after clicking on a link, focus and blur effects
 Pseudo-classes and pseudo-elements should be included here */
 
-input[type="checkbox"]:checked + li {
+input[type="checkbox"]:checked + .recipe li {
   text-decoration: line-through;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #865141;
 }
